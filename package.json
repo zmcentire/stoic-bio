@@ -18,6 +18,9 @@
     "start": "node server.js",
     "heroku post-build": "cd src && npm install --only=dev && npm run build"
   },
+  "engines": {
+    "node": "8.10.0"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
